@@ -3,13 +3,10 @@ body {
   color: #212121;
   margin: 0px;
 }
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  list-style-type: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --hover-color: #2196f3;
@@ -22,65 +19,127 @@ a {
   --button-bacground-color: #f5f4fa;
   --projectname-color: #212121;
 }
-.header-discription {
+.container-header {
+  box-sizing: border-box;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 0 15px;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 0 15px;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 32px;
+}
+.nav-contact {
+  display: flex;
+  list-style: none;
+  margin: 32px;
+}
+.header-nav {
   display: flex;
   width: 100%;
   height: 80px;
-  text-decoration: none;
+  background-color: var(--footer-color);
+  margin: auto;
   border-bottom: 1px solid #ececec;
 }
-.hidden-thing {
-  position: aboslute;
-  visibility: hidden;
-  pointer-events: none;
-  opacity: 0;
-}
+
 .title-discription {
   text-decoration: none;
   font-family: "Raleway";
   color: var(--logo-color);
   font-weight: 700;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  padding: 24px 0 25px 215px;
+  margin: 24px 93px 25px 0;
+  letter-spacing: 0.03em;
 }
 .weblogo {
   color: var(--hover-color);
-  text-decoration: none;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
-.nav-menu {
-  display: flex;
-  margin-left: 93px;
-}
-.menu-discription {
+.agency {
   color: var(--menu-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   cursor: pointer;
+  letter-spacing: 0.02em;
+  margin: 32px 46px 32px;
 }
-.menu-discription:hover,
-.menu-discription:focus {
+.agency:hover,
+.agency:focus {
   color: var(--hover-color);
 }
-.contact-discription {
+.portfolio {
+  color: var(--menu-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  margin: 32px 46px 32px;
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--hover-color);
+}
+.contact {
+  color: var(--menu-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  margin: 32px 46px 32px;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--hover-color);
+}
+.mailto-discription {
   color: var(--contact-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  margin: 32px 50px 32px;
 }
-.contact-discription:hover,
-.contact-discription:focus {
+.mailto-discription:hover,
+.mailto-discription:focus {
+  color: var(--hover-color);
+}
+.tel-discription {
+  color: var(--contact-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.tel-discription:hover,
+.tel-discription:focus {
   color: var(--hover-color);
 }
 .frist-section {
   background-color: var(--background-color);
+  width: 1200px;
+  align-items: center;
+  text-align: center;
 }
 
 .first-button {
@@ -100,6 +159,7 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
 }
 .button-disription {
   background-color: var(--button-bacground-color);
@@ -113,6 +173,12 @@ a {
 .button-disription:focus {
   background-color: var(--hover-color);
   color: var(--footer-color);
+}
+.lorem-txt {
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  margin-top: 94px;
 }
 .lorem-title-discription {
   font-weight: 700;
