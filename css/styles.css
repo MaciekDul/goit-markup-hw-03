@@ -33,6 +33,9 @@ body {
 .weblogo {
   color: var(--hover-color);
 }
+.web {
+  color: var(--hover-color);
+}
 .menu-discription {
   color: var(--menu-color);
   text-decoration: none;
