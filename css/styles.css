@@ -3,7 +3,7 @@ body {
   color: #212121;
   margin: 0px;
 }
-:root {
+.c :root {
   --hover-color: #2196f3;
   --footer-color: #ffffff;
   --logo-color: #000000;
@@ -13,6 +13,20 @@ body {
   --background-color: #2f303a;
   --button-bacground-color: #f5f4fa;
   --projectname-color: #212121;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header-discription {
+  display: flex;
+  margin: auto;
+  margin-bottom: 1px;
+  height: 80px;
+  background-color: var(--footer-color);
+}
+.nav-menu {
+  display: flex;
 }
 
 .hidden-thing {
