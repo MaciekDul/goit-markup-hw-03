@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 
 .contact-menu {
@@ -87,9 +88,12 @@ body {
 .frist-section {
   background-color: var(--background-color);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-transform: uppercase;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-direction: column;
 }
 
 .first-button {
@@ -111,10 +115,14 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
+  padding-top: 10%;
 }
 .button-disription {
   background-color: var(--button-bacground-color);
   font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
   width: 93px;
   height: 38px;
   border-radius: 4px;
@@ -128,6 +136,8 @@ body {
   list-style: none;
   justify-content: center;
   gap: 8px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .button-disription:hover,
 .button-disription:focus {
@@ -156,7 +166,9 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  padding: 92px;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .photo-first-site {
@@ -165,13 +177,20 @@ body {
   margin-top: 50px;
   gap: 30px;
   justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+  margin-top: 10px;
+  padding-bottom: 94px;
 }
+
 .team-content {
   display: flex;
   list-style: none;
   margin-top: 50px;
   gap: 30px;
   justify-content: space-between;
+  padding-left: 0;
+  margin: 0;
 }
 .team-element {
   width: 270px;
@@ -182,11 +201,14 @@ body {
 }
 .team-first-content {
   background-color: #f5f4fa;
+  height: 648px;
 }
 .name-discripton {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
+  padding-top: 30px;
 }
 .job-discription {
   color: var(--contact-color);
@@ -205,10 +227,12 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  padding-bottom: 9px;
 }
 .footer-discriptions {
   background-color: var(--background-color);
   width: 1200px;
+  height: 252px;
 }
 .footer-web-discription {
   color: var(--footer-color);
@@ -217,6 +241,9 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .footer-contact {
@@ -236,18 +263,26 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .project-discription {
   color: var(--contact-color);
   font-size: 16px;
   line-height: 1.87;
+  padding-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
 .work-progres {
   display: grid;
-  gap: 30px;
+  gap: 43px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   list-style: none;
+  padding-left: 0;
+  align-items: center;
+  padding-bottom: 94px;
 }
 .work-content {
   width: 370px;
