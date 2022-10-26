@@ -239,9 +239,7 @@ body {
   line-height: 1.71;
   padding-bottom: 9px;
 }
-.footer-discriptions {
-  background-color: var(--background-color);
-}
+
 .footer-web-discription {
   color: var(--footer-color);
   font-family: "Raleway";
@@ -250,11 +248,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
 .footer {
   background-color: var(--background-color);
+  padding: 60px;
 }
 .footer-contact {
   color: var(--footer-contact-color);
