@@ -207,6 +207,9 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--footer-color);
 }
+.first-photo {
+  width: calc((100% - 2 * 30px) / 3);
+}
 .team-first-content {
   background-color: #f5f4fa;
 }
